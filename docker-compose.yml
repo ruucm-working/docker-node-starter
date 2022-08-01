@@ -4,3 +4,5 @@ services:
     ports:
       - '3000:3000'
     image: docker-node-starter
+    volumes:
+      - ./:/docker-app
