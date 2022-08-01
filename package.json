@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "docker:build-image": "docker build -t docker-node-starter .",
+    "docker:run-container": "docker run -d -p 3000:3000 docker-node-starter",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
