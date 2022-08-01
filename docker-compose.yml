@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  service_1:
+    ports:
+      - '3000:3000'
+    image: docker-node-starter
